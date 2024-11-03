@@ -87,16 +87,16 @@ const Home = () => {
             <div className='px-2'>
             <span className="flex items-center space-x-1">
              <GoDotFill className="text-green-500" />
-             <p className='text-xs'>Active</p>
+             <p className='text-xs'>PHEV</p>
            </span>
-              <p className='ml-4 text-xl pt-2 font-semibold'>189</p>
+              <p className='ml-4 text-xl pt-2 font-semibold'>25.55K</p>
             </div>
             <div className='border-l-2 px-2'>
             <span className="flex items-center space-x-1">
              <GoDotFill className="text-red-500" />
-             <p className='text-xs'>InActive</p>
+             <p className='text-xs'>BEV</p>
            </span> 
-             <p className='ml-5 text-xl pt-2 font-semibold'>56</p>
+             <p className='ml-5 text-xl pt-2 font-semibold'>72K</p>
             </div>
             
           </div> 
@@ -141,8 +141,9 @@ const Home = () => {
   <div className='flex space-x-3 item-center pb-2'>
             <div className='text-red-600 p-2 rounded bg-gray-700 mt-1 ml-1'><IoBusinessOutline /></div>
             <p className='text-xs text-white'>
+              <div className='pl-4'>
     <span className="block text-[10px] text-slate-400 ml-[-25px] ">Total</span>
-    <span className="block text-sm font-thin">Vehicles</span>
+    <span className="block text-sm font-thin">Vehicles</span></div>
 </p>
           </div><p className='text-white text-lg font-medium pl-6'>97K</p>
     
@@ -151,8 +152,9 @@ const Home = () => {
   <div className='flex space-x-3 item-center pb-2'>
             <div className='text-blue-600 p-2 rounded bg-gray-700 mt-1 ml-1'><LuUserSquare /></div>
             <p className='text-xs text-white'>
+              <div className='pl-4'>
     <span className="block text-[10px] text-slate-400 ml-[-10px] ">Total</span>
-    <span className="block text-sm font-thin">PHEV</span>
+    <span className="block text-sm font-thin">PHEV</span></div>
 </p>
           </div><p className='text-white text-lg font-medium pl-6'>25K</p>
     
@@ -162,8 +164,9 @@ const Home = () => {
   <div className='flex space-x-3 item-center pb-2'>
             <div className='text-purple-600 p-2 rounded bg-gray-700 mt-1 ml-1'><LuUserSquare /></div>
             <p className='text-xs text-white'>
+              <div className='pl-4'>
     <span className="block text-[10px] text-slate-400 ml-[0px] ">Total</span>
-    <span className="block text-sm font-thin">BEV</span>
+    <span className="block text-sm font-thin">BEV</span></div>
 </p>
           </div><p className='text-white text-lg font-medium pl-6'>72K</p>
  

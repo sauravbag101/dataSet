@@ -23,7 +23,7 @@ ChartJS.register(
 export const LineGraph = () => {
 
     const data = {
-        labels: [1990, 1994, 1998, 2002, 2008, 2012, 2016, 2020, 2024],
+        labels: [1990, 2010, 2012, 2014, 2016, 2018, 2020, 2022, 2024],
         datasets: [
             {
                 label: 'Top 10 Vehicle',
